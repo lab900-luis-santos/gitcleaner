@@ -1,8 +1,8 @@
 <idea-plugin>
-    <id>com.ppolivka.plugin.gitcleaner</id>
-    <name>Git Branch Cleaner</name>
-    <version>1.1.4</version>
-    <vendor email="polivka.pavel@gmail.com" url="http://ppolivka.com">Pavel Polivka</vendor>
+    <id>me.luissantos.gitcleaner</id>
+    <name>Git Branch Cleaner (Fork ppolivka)</name>
+    <version>0.0.1</version>
+    <vendor email="luis@luissantos.me" url="http://luissantos.me">Luis Santos</vendor>
 
     <description><![CDATA[
       Simple plugin for deleting unneeded git branches.<br>
@@ -33,6 +33,7 @@
             <add-to-group group-id="Git.MainMenu"/>
             <add-to-group group-id="Git.Menu"/>
             <add-to-group group-id="Git.ContextMenu"/>
+            <add-to-group group-id="ToolsMenu" anchor="after" relative-to-action="org.intellij.sdk.action.PopupDialogAction"/>
         </action>
     </actions>
 
